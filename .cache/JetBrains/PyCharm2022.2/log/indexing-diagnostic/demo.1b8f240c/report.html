@@ -1,0 +1,102 @@
+<html><head><title>Indexing diagnostics of &#39;demo&#39;</title><style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script></head><body><div class="aggregate-report-content"><h1>Project name</h1>demo<div><h1>Indexing history</h1><table class="centered-text"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Hover for details</caption><thead><tr><th colspan="7">Time</th><th colspan="6">Files</th><th rowspan="2">IDE</th><th rowspan="2">Type</th></tr><tr><th>Started</th><th>Total</th><th>Creating iterators</th><th>Scanning</th><th>Indexing</th><th>Content loading</th><th>Finished</th><th>Providers</th><th>Scanned</th><th>Shared indexes (w/o content loading)</th><th>Scheduled for indexing</th><th>Shared indexes (content loaded)</th><th>Total indexed (shared indexes included)</th></tr></thead><tbody><tr class="linkable-table-row" href="diagnostic-2022-09-06-22-44-50.408.html"><td><strong>On project open</strong><br/>22:44:48 06 Sep</td><td>1 s 470 ms</td><td>1 ms</td><td>1 s 308 ms</td><td>0</td><td>0</td><td>22:44:50 06 Sep</td><td>20</td><td>9047</td><td>0</td><td>0</td><td>0</td><td>0</td><td>PY-222.3739.56</td><td>full on project open</td></tr><tr class="linkable-table-row" href="diagnostic-2022-09-06-22-41-54.004.html"><td><strong>On refresh of 154 files</strong><br/>22:41:53 06 Sep</td><td>818 ms</td><td>0</td><td>0</td><td>817 ms</td><td>7 ms</td><td>22:41:54 06 Sep</td><td>1</td><td>154</td><td>0</td><td>154</td><td>2</td><td>154</td><td>PY-222.3739.56</td><td>refresh</td></tr><tr class="linkable-table-row" href="diagnostic-2022-09-06-22-41-53.168.html"><td><strong>On project open</strong><br/>22:41:37 06 Sep</td><td>15 s 395 ms</td><td>2 ms</td><td>2 s 180 ms</td><td>13 s 70 ms</td><td>613 ms</td><td>22:41:53 06 Sep</td><td>20</td><td>8900</td><td>0</td><td>7596</td><td>4714</td><td>7596</td><td>PY-222.3739.56</td><td>full on project open</td></tr></tbody></table></div><div><h1>Shared Indexes</h1><table><thead><tr><th>Time</th><th>Kind</th><th>Name</th><th>Size</th><th>Download time</th><th>Download speed</th><th>Status</th><th>ID</th><th>Generation time</th></tr></thead><tbody><tr><td>22:41:39 06 Sep</td><td>pip</td><td>pip</td><td>2.05 MB</td><td>581 ms</td><td>3.53 MB/s</td><td>success FB: 100.0%, Stub: 100.0%</td><td>pip-c9280da6978c99d194fbc2e6b91c5626edcf8a5f01776972af2bb8a9bb5c0518-6b11b7d7c2f9</td><td>03:24:09 04 Aug</td></tr><tr><td>22:41:39 06 Sep</td><td>setuptools</td><td>setuptools</td><td>852.42 kB</td><td>381 ms</td><td>2.23 MB/s</td><td>success FB: 100.0%, Stub: 100.0%</td><td>setuptools-05af5a507ba78027daf3115865117e64918c843502f0cdd3ce38dd5153149908-6b11b7d7c2f9</td><td>03:12:47 11 Aug</td></tr><tr><td>22:41:38 06 Sep</td><td>pillow</td><td>pillow</td><td>372.19 kB</td><td>360 ms</td><td>1.03 MB/s</td><td>success FB: 100.0%, Stub: 100.0%</td><td>pillow-925962a06bdeb3eb3ae8d5163f48aa7c645571a18190df44fef396192bb0432c-6b11b7d7c2f9</td><td>03:12:18 02 Jul</td></tr></tbody></table></div><div><h1>Scanning to push properties of changed files</h1><table><thead><tr><th>Time</th><th>Reason</th><th>Full duration</th><th>Is cancelled</th><th>Number</th></tr></thead><tbody><tr><td>22:41:53 06 Sep</td><td>Push on VFS changes</td><td>&lt; 1 ms</td><td>fully finished</td><td>1</td></tr></tbody></table></div></div></body></html>

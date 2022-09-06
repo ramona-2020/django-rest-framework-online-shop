@@ -1,0 +1,3 @@
+<models version="1"><model currentLanguage="python"><version>0.0.7</version><size>29911531</size><languages><language>python</language></languages><binary>flcc.model</binary><bpe>flcc.bpe</bpe><config>flcc.json</config><changelog>&lt;p>
+&lt;/p>&lt;ul>&lt;li>Added a better, but slower model
+&lt;/li>&lt;/ul></changelog></model></models>

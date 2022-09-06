@@ -1,0 +1,14 @@
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/jsLibraryMappings.xml" t="1662478101" />
+    <f p="./.idea/demo.iml" t="1662478101" />
+    <f p="./.idea/dataSources.xml" t="1662481305" />
+    <f p="./.idea/misc.xml" t="1662476926" />
+    <f p="./.idea/dataSources.local.xml" t="1662481451" />
+    <f p="./.idea/modules.xml" t="1662476926" />
+    <f p="./.idea/workspace.xml" t="1662494925" />
+  </project-files>
+</conversion>

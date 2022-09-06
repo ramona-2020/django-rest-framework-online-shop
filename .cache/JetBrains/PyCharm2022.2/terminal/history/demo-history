@@ -1,0 +1,5 @@
+ll
+ll
+service postgresql stop
+docker-compose up
+python manage.py makemigrations

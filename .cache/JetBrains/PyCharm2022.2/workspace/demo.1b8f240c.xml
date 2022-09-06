@@ -1,0 +1,22 @@
+<project version="4">
+  <component name="JSRemoteModulesUsagesDetector">
+    <modules>
+      <module url="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" />
+    </modules>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PermissionStore">
+    <excludedFiles>
+      <Path>$PROJECT_DIR$/.idea</Path>
+    </excludedFiles>
+    <fileAccess>Readonly</fileAccess>
+    <terminalAccess>Readonly</terminalAccess>
+    <runAccess>Readonly</runAccess>
+    <toolWindowAccess>Disabled</toolWindowAccess>
+  </component>
+</project>
