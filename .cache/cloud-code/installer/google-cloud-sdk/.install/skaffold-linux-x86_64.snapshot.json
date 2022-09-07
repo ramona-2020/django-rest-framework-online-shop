@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "data": {
+        "contents_checksum": "11a59052b307e9158369965a3906d011746054ec3e51003d424139a9d859f17f",
+        "source": "",
+        "type": "tar"
+      },
+      "dependencies": [
+        "kubectl",
+        "skaffold"
+      ],
+      "details": {
+        "description": "Provides skaffold executable.  See https://skaffold.dev/",
+        "display_name": "Skaffold"
+      },
+      "id": "skaffold-linux-x86_64",
+      "is_configuration": false,
+      "is_hidden": true,
+      "is_required": false,
+      "platform": {
+        "architectures": [
+          "x86_64"
+        ],
+        "operating_systems": [
+          "LINUX"
+        ]
+      },
+      "platform_required": false,
+      "version": {
+        "build_number": 20220826172526,
+        "version_string": "1.39.2"
+      }
+    }
+  ],
+  "revision": 20220826172526,
+  "schema_version": {
+    "no_update": false,
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz",
+    "version": 3
+  },
+  "version": "400.0.0"
+}
